@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Module-3-HTML5</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 95%;
+      margin: 0 auto;
+      background: url(https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?w=996&t=st=1700158847~exp=1700159447~hmac=7ed185d964da6916ade910217da41f4a6c1b0f27b184a33050f2a798b29c91e6);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+    }
+
+    details {
+      /* width: 100%; */
+      margin: 25px 0px;
+      padding: 10px;
+      background-color: aliceblue;
+      border: 1px solid skyblue;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    details p {
+      margin-top: 10px;
+    }
+
+    details summary {
+      font-size: 22px;
+      word-spacing: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h1> Module(HTML 5) - 3 </h1>
+  </center>
+
+  <!-- Question 1-->
+  <details>
+    <summary>What are the new tags added in HTML5?</summary>
+    <p> New elements are added in HTML5 to write easy and fast code to create complex, dynamic, engaging, and effective
+      websites. These new elements add advanced functional features, improvised page layouts, and other improvements.
+      The commonly used new HTML5 tags are: &lt; figure &gt; , &lt; article &gt; , &lt; header &gt; , &lt; main &gt; ,
+      &lt; footer &gt; , &lt; nav &gt; ,<br> &lt; section &gt; , &lt; aside &gt; , &lt; details &gt; , &lt; dialog &gt;
+      , &lt; figcaption &gt; , &lt; mark &gt; , &lt; summary &gt; , &lt; time &gt; </p>
+  </details>
+
+  <!-- Question 2 -->
+  <details>
+    <summary>How to embed audio and video in a webpage?</summary>
+    <p> Add &lt; audio &gt; and &lt; video &gt; elements to the page; make them display the default browser controls.
+      Give both of them &lt; source &gt; elements so that browsers will find the audio format they support best and load
+      it. These should include type attributes.</p>
+    <strong>Syntax of audio tag: </strong> <br>
+    &lt; audio &gt; <br>
+    &lt; source src="file_name" type="audio/mp3" &gt; <br>
+    &lt; /audio &gt;
+    <p> Attributes of audio tag are: autoplay, controls, loop, muted, preload, src. Audio fileformat is MP3, WAV, OGG.
+    </p>
+    </p>
+
+    <strong>Syntax of video tag: </strong> <br>
+    &lt; video &gt; <br>
+    &lt; source src="file_name" type="video/mp4" &gt; <br>
+    &lt; /video &gt;
+    <p> Attributes of video tag are: autoplay, controls, loop, muted, poster, preload, src, width, height. Video
+      fileformat is MP4, WebM, OGG.</p>
+  </details>
+
+  <!-- Question 3-->
+  <details>
+    <summary>Semantic element in HTML5? </summary>
+    <p> A semantic element clearly describes its meaning to both the browser and the developer. <br>
+      Examples of non-semantic elements: &lt; div &gt; and &lt; span &gt; - Tells nothing about its content. <br>
+  
+      Examples of semantic elements: &lt; form &gt;, &lt; table &gt;, and &lt; article &gt; - Clearly defines its content.
+    </p>
+    <strong> Semantic elements in html: </strong> <br>
+    <p> article, aside, details, figcaption, figure, footer, header, main, nav, mark, section, summary, time.</p>
+  </details>
+
+  <!-- Question 4 -->
+  <details>
+    <summary> Canvas and SVG tags</summary>
+    <P> <strong> SVG: </strong>
+      The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based
+      graphics for the web. Unlike raster image (Ex .jpg, .gif, .png, etc.), a vector image can be scaled up or down to
+      any extent without losing the image quality.
+  
+      An SVG image is drawn out using a series of statements that follow the XML schema — that means SVG images can be
+      created and edited with any text editor, such as Notepad. There are several other advantages of using SVG over other
+      image formats like JPEG, GIF, PNG, etc.
+    </P>
+    <br><h3> Example: </h3><br>
+        &lt;svg width="200" height="250" viewBox="-100 -100 200 200"&gt; <br>
+            &nbsp;&nbsp; &lt;polygon points="0,0 80,120 -80,120" fill="#234236" &gt; <br>
+            &nbsp;&nbsp; &lt;polygon points="0,-40 60,60 -60,60" fill="#0C5C4C" &gt; <br>
+            &nbsp;&nbsp; &lt;polygon points="0,-80 40,0 -40,0" fill="#38755B" &gt; <br>
+            &nbsp;&nbsp; &lt;rect x="-20" y="120" width="40" height="40" fill="brown" &gt; <br>
+        &lt;/svg&gt; <br>
+
+        <svg width="200" height="250" viewBox="-100 -100 200 200">
+            <polygon points="0,0 80,120 -80,120" fill="#234236" />
+            <polygon points="0,-40 60,60 -60,60" fill="#0C5C4C" />
+            <polygon points="0,-80 40,0 -40,0" fill="#38755B" />
+            <rect x="-20" y="120" width="40" height="40" fill="brown" />
+          </svg>
+  
+    <p> <strong> Canvas: </strong> The HTML element is used to draw graphics on the fly, via scripting (usually
+      JavaScript). The element is only a container for graphics. You must use a script to actually draw the graphics.
+      Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
+  </details>
+ 
+
+</body>
+
+</html>
